@@ -96,7 +96,8 @@ h1 {
   padding: 8px;
 }
 
-.navbar .sign-in-button:hover {
+.navbar .sign-in-button:hover,
+.header .buttons .learn-more:hover {
   background-color: rgba(211, 211, 211, 0.345);
 }
 
@@ -110,7 +111,8 @@ h1 {
   margin-right: 20px;
 }
 
-.navbar .get-started-button:hover {
+.navbar .get-started-button:hover,
+.header .buttons .get-started:hover {
   background-color: mediumblue;
 }
 
@@ -125,15 +127,20 @@ h1 {
 }
 .header p {
   font-size: 20px;
-  font-weight: 380;
+  font-weight: 400;
   text-align: center;
+  margin-bottom: 50px;
 }
 
-.header .buttons {
+.header .buttons .get-started,
+.header .buttons .learn-more {
+  padding: 15px 30px;
+  border-radius: 8px;
+  width: 40px;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
-.header .buttons .get-started {
-  padding: 10px 30px;
+.header .buttons .learn-more {
+  border: 1px solid rgba(128, 128, 128, 0.356);
 }
